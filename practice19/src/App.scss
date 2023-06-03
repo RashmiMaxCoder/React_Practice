@@ -1,0 +1,30 @@
+// if we use direct color without use Variable.scss file
+// .myName{
+//     color:red ;
+
+// }
+
+// .myDesignation{
+//     color:greenyellow ;
+
+// }
+// .myLocation{
+//     color:blueviolet ;
+
+// }
+
+// if we use variable color with use of Variable.scss file
+@import "Variable";
+.myName{
+    color : $red ;
+
+}
+
+.myDesignation{
+    color : $green ;
+
+}
+.myLocation{
+    color:$blue ;
+
+}

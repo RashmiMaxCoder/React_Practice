@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Calculator from './Calculator';
-// State Lifting Up in React Js   viedo 16 part-1
+import App from './App';
 ReactDOM.render(
-  <Calculator />,
+  <App />,
   document.getElementById('root')
-)
+  )
