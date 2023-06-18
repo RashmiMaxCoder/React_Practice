@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+header{
+    width: 100%;
+    padding: 20px;
+    background-color:purple;
+    box-sizing: border-box;
+}
+header a{
+    width: 33.33%;
+    display: inline-block;
+    text-align: center;
+    color: rgb(182, 240, 142);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+
+    /* padding: 10px; */
+    /* margin: 5px; */
+    /* border-radius: 25%; */
+    /* background-color: black; */
+}
+header a:hover{
+    color: yellow;
+}
+header a.active{
+    color:#fff;
+    font-size: 24px;
+}
+main{
+    background-color: lightgreen;
+    min-height: calc(100vh-64px);
+    text-align:center;
+    color: purple;
+}
+main img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+     margin: 0 auto;
+     display: block;
+    
+}
+  
+/* 
+main img {
+    max-width: 100%;
+    max-height: 400px; Adjust the value as per your requirement
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+   */
+ 
+  
+
+  
+main h1{
+    font-size:70px;
+    margin:20px;
+    padding: 30px 50px 0;
+}
+main p{
+    font-size:24px;
+    padding: 0 50px 50px;
+    margin:0;
+}
+
+/* main{
+    margin: 20px 2px;
+    text-align:center;
+} */
+
+/* img{
+    height:20em;    
+}
+
+.con{
+    margin: auto;
+    height: 300px;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("https://source.unsplash.com/random/900×700/?car");
+    background-position: center;
+} */
+
